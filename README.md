@@ -14,11 +14,16 @@ this Project implemens:
 
 ## Project Structure
 CN_Assignment1/
-├── client.py          # Client code
+├── client.py          # Client code 
+
 ├── server.py          # Server code
+
 ├── 1.pcap             # Sample PCAP file (chosen based on roll no rule)
+
 ├── dns_results.csv    # DNS results output (Task-1)
+
 ├── report.pdf         # Final report
+
 └── README.md          # Instructions
 
 ## Requirements
