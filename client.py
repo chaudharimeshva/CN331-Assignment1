@@ -9,7 +9,7 @@ def make_header(seq_id):
     return now.strftime("%H%M%S") + f"{seq_id:02d}"
 
 # Load PCAP
-pcap_file = "C:/Users/chaud/OneDrive/Desktop/CN_Assignment1/1.pcap"
+pcap_file = "C:/Users/chaud/OneDrive/Desktop/CN_Assignment1/9.pcap"
 packets = rdpcap(pcap_file)
 
 # Extract DNS queries only
@@ -45,3 +45,4 @@ with open("dns_results.csv", mode="w", newline="") as file:
         writer.writerow([header, domain, resolved_ip])
 
 s.close()
+
