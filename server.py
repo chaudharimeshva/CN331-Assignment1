@@ -31,7 +31,7 @@ def resolve_dns(header, query_packet):
 
     return resolved_ip
 
-# --- Server socket setup ---
+#Server socket setup
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(("127.0.0.1", 9999))   # localhost, port 9999
 server.listen(1)
