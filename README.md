@@ -15,17 +15,17 @@ this Project implemens:
 ## Project Structure
 CN_Assignment1/
 
-├── client.py          # Client code 
+--> client.py          # Client code 
 
-├── server.py          # Server code
+--> server.py          # Server code
 
-├── 1.pcap             # Sample PCAP file (chosen based on roll no rule)
+--> 1.pcap             # Sample PCAP file (chosen based on roll no rule)
 
-├── dns_results.csv    # DNS results output (Task-1)
+--> dns_results.csv    # DNS results output (Task-1)
 
-├── report.pdf         # Final report
+--> report.pdf         # Final report
 
-└── README.md          # Instructions
+--> README.md          # Instructions
 
 ## Requirements
 - Python 3.x
@@ -51,7 +51,6 @@ We can install scapy by,
     - Add headers and send them to server
     - Print result and save them to dns_results.csv
 
-### Sample Output
 
 ## Task-2:
 
