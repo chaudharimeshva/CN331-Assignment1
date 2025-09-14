@@ -8,9 +8,6 @@ ip_pool = [
 ]
 
 def resolve_dns(header, query_packet):
-    """
-    Resolve DNS query using custom header (HHMMSSID) and rule set
-    """
     try:
         # Extract hour and ID from header
         hour = int(header[:2])   # HH
