@@ -4,7 +4,7 @@
 This project implements two main tasks:
 
 ## **Task 1 – Custom DNS Resolver**
-- The client reads DNS queries from a **PCAP file**.
+- The client reads DNS queries from a **PCAP file**. we have to take 9.pcap from https://drive.google.com/drive/folders/1_LhhdsAA7miN91GcRTKOPZOWroQQNGWV?usp=sharing.
 - A **custom header** (format: `HHMMSSID`) is added to each query.
 - The modified query is sent to the server.
 - The server applies a **time-slot + modulo rule** to map the query to one of the IP addresses from a **15-IP pool**.
