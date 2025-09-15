@@ -13,12 +13,18 @@ This project implements two main tasks:
 
 ---
 
-## Project Structure
+### File Structure
+
 |-> client.py            # Client code
+
 |-> server.py            # Server code 
-|-> 1.pcap               # Sample PCAP file (chosen based on roll no rule) 
+
+|-> 1.pcap               # Sample PCAP file ((075+044=119)%10=9) 
+
 |-> dns_results.csv      # DNS results output (Task-1) 
+
 |-> report.pdf           # Final report 
+
 |-> README.md            # Instructions
 
 ---
@@ -33,6 +39,7 @@ This project implements two main tasks:
 To install scapy:
 ```bash
 pip install scapy
+```
 
 
 ## **Task 2 – Traceroute Protocol Behavior**
