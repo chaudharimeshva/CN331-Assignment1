@@ -19,7 +19,7 @@ This project implements two main tasks:
 
 |-> server.py            # Server code 
 
-|-> 1.pcap               # Sample PCAP file ((075+044=119)%10=9) 
+|-> 9.pcap               # Sample PCAP file ((075+044=119)%10=9) 
 
 |-> dns_results.csv      # DNS results output (Task-1) 
 
