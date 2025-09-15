@@ -36,7 +36,7 @@ with open("dns_results.csv", mode="w", newline="") as file:
 
         # Extract domain name for report
         domain = q[DNS].qd.qname.decode().strip(".")
-        resolved_ip = response.split()[-1]  # last word after "Resolved:"
+        resolved_ip = response.split()[-1]  
 
         # Print for verification
         print(f"{header} | {domain} | {resolved_ip}")
@@ -45,4 +45,5 @@ with open("dns_results.csv", mode="w", newline="") as file:
         writer.writerow([header, domain, resolved_ip])
 
 s.close()
+
 
